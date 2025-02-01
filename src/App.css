@@ -1,0 +1,64 @@
+.btn-color {
+  background-image: linear-gradient(45deg,tomato,crimson);
+}
+.text-color {
+  color: tomato;
+}
+.text-bold {
+  font-weight: bold;
+}
+.form-control:focus {
+  border-color: lightgray!important;
+
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px lightgray !important;
+}
+.btn:focus {
+ 
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px tomato !important;
+ 
+}
+.customModal {
+  
+ 
+  width: 50%;
+ 
+ 
+ 
+  
+}
+.border-bottom {
+  border-bottom: 1px solid #dee2e6!important;
+}
+.carousel-inner{
+  margin-bottom: 50px;
+
+}
+.carousel-indicators{
+  background-color: tomato;
+  border-radius: 20px;
+}
+.carousel-item {
+  
+  transition: transform .5s ease-in-out;
+}
+
+
+@media (max-width:991px) {
+ .customModal{
+   width: 60%;
+ }
+  
+}
+@media (max-width:767px) {
+.customModal{
+  width: 80%;
+}
+  
+}
+@media (max-width:575px) {
+  .customModal{
+    width: 100%;
+    margin: 0!important;
+  }
+    
+  }
